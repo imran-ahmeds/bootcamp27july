@@ -31,5 +31,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ http://smelly-arithmetic.surge.sh/ --token $ {{secrets.INDEX_SURGE}}
+      run: surge ./ http://smelly-arithmetic.surge.sh/ --token ${{secrets.INDEX_SURGE}}
         
