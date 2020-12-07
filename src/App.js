@@ -8,6 +8,7 @@ function App() {
       <ul>
         <li>About Us</li>
       </ul>
+      <heading>This is heading</heading>
       </header>
     </div>
   );
