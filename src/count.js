@@ -6,6 +6,7 @@ function Counter(){
     return(
         <div>
             <Message setCounter= {count}/>
+            <input></input>
             <button onClick= {()=> setCount (count += parseInt(prompt('enter number')))}>Update Counter</button>
         </div>
     );
