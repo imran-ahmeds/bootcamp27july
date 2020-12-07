@@ -22,7 +22,7 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Installing Node
+    - name: Installing Node.JS
       uses: action/setup-node@v2-beta
       with:
         node-version: 12 
