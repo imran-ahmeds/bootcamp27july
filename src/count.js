@@ -5,6 +5,7 @@ function Counter(){
     return(
         <div>
             <h3>The counter in now set to: {count}</h3>
+            <button onClick= {()=> setCount (count++)}>Update Counter</button>
         </div>
     );
 }
