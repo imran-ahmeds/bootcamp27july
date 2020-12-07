@@ -7,7 +7,6 @@ import Dinner from './dinner';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Dinner />
   </React.StrictMode>,
   document.getElementById('root')
 );
