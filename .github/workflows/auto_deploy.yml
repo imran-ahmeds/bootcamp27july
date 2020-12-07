@@ -33,7 +33,7 @@ jobs:
       with:
       # Yarn command
        cmd: install
-    - name: Create Build
+    - name: create Build
       run: yarn build
 
     # Runs a set of commands using the runners shell
