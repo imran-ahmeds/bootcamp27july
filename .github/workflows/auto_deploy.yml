@@ -28,7 +28,7 @@ jobs:
         node-version: 12 
 
     # Runs a set of commands using the runners shell
-    - name: Installing surge
+    - name: Installing Surge
       run: npm install --global surge
     - name: deploying using surge
       run: surge ./ http://smelly-arithmetic.surge.sh/ --token ${{secrets.INDEX_SURGE}}
