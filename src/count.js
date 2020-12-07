@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
+import {Message} from './Message';
 
 function Counter(){
     let [count, setCount] = useState(0);
     return(
         <div>
-            <h3>The counter in now set to: {count}</h3>
+            <Message setCounter= {count}/>
             <button onClick= {()=> setCount (++count)}>Update Counter</button>
         </div>
     );
