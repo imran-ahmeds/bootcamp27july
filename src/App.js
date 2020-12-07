@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Converted from Index.html to React App
         </a>
       </header>
     </div>
