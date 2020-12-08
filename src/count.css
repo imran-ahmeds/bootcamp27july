@@ -1,0 +1,17 @@
+.box {
+    background-color: #47494d;
+    height: 100px;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: beige;
+    text-align: center;
+  }
+  
+  .day {
+    background-color: #fcec17;
+    height: 100px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+    text-align: center;
+  }

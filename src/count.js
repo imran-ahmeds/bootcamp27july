@@ -1,14 +1,26 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import {Message} from './Message';
-import './App.css';
+import './count.css';
 function Counter(){
     let [count, setCount] = useState(0);
+    let [isMorning, setMorning] = useState(false);
     return(
-        <div className='box'>
+        <div className={'box  $ {isMorning ? 'dayTime' :  '' }'} >
+            
+            <h1>Day time = {isMorning ? 'Morning' : 'Night'}</h1>
+            <button 
+            onClick= {()=> setMorning (!isMorning)}>
+            Update Time
+            </button>
+
+
             <Message setCounter= {count}/>
-            <input type="number" value = {count} className="add"></input>
-            <input type="button" value="submit" 
-            onClick= {()=> setCount (count += parseInt(prompt('Enter a number')))}/>
+            
+            <button 
+            onClick = 
+            {()=> setCount (count += 
+            parseInt(prompt('Enter a number')))}>
+            </button>
                 
         </div>
     );
