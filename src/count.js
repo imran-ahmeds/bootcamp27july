@@ -8,7 +8,7 @@ function Counter(){
             <Message setCounter= {count}/>
             <input type="number" value = {count} className="add"></input>
             <input type="button" value="submit" 
-            onClick= {()=> setCount (count += parseInt(count))}/>
+            onClick= {()=> setCount (count += parseInt(prompt('Enter a number')))}/>
                 
         </div>
     );
