@@ -7,7 +7,7 @@ function Counter(){
     return(
         <div className={"box  $ {isMorning ? 'dayTime' :  '' }"} >
             
-            <h1>Day time = {isMorning ? 'Morning' : 'Night'}</h1>
+            <h1>Day time is {isMorning ? 'Morning' : 'Night'}</h1>
             <button 
             onClick= {()=> setMorning (!isMorning)}>
             Update Time
