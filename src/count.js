@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import {Message} from './Message';
+import React, { useState } from 'react';
+import { Message } from './Message';
 import './count.css';
 function Counter(){
     let [count, setCount] = useState(0);
     let [isMorning, setMorning] = useState(false);
     return(
-        <div className={'box  ${isMorning ? 'dayTime' :  '' }'} >
+        <div className={`box  ${isMorning ? 'dayTime' :  '' }`} >
             
             <h1>{isMorning ? 'Morning' : 'Night'}</h1>
             <button 
