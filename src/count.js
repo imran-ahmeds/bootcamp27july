@@ -5,7 +5,7 @@ function Counter(){
     let [count, setCount] = useState(0);
     let [isMorning, setMorning] = useState(false);
     return(
-        <div className={'box  $ {isMorning ? 'dayTime' :  '' }'} >
+        <div className={"box  $ {isMorning ? 'dayTime' :  '' }"} >
             
             <h1>Day time = {isMorning ? 'Morning' : 'Night'}</h1>
             <button 
