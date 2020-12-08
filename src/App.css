@@ -1,3 +1,13 @@
+.box {
+  background-color: #47494d;
+  height: 60px;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: beige;
+}
+
+
+
 .App {
   text-align: center;
 }
