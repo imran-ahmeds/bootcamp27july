@@ -16,7 +16,7 @@ function Counter(){
 
             <Message setCounter= {count}/>
             
-            <button 
+            <button className="App"
             onClick = 
             {()=> setCount (count += 
             parseInt(prompt('Enter a number')))}>

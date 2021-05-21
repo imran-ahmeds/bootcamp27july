@@ -1,16 +1,14 @@
 import React from 'react'
 import './App.css';
 import Dinner from './dinner';
-
+import Have from './components';
 
 function App() {
   
   return (
     <div className='App'>
     <Dinner dishName="Nihari"sweetName="Doodh Dulari"/>
-    <Dinner dishName="Biryani" sweetName="Kheer"/>
-    <Dinner dishName="Korma" drinkName="Marinda"/>
-    
+     <Have/>
     </div>
   );
 }
